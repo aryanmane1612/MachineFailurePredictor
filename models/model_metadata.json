@@ -1,0 +1,16 @@
+{
+  "model": "SVM with RBF kernel",
+  "feature_count": 48,
+  "training_recordings": 796,
+  "bearing_groups": 10,
+  "best_parameters": {
+    "svm__C": 1,
+    "svm__class_weight": "balanced",
+    "svm__gamma": "scale"
+  },
+  "classes": {
+    "0": "Healthy",
+    "1": "Damaged"
+  },
+  "dataset": "Paderborn bearing dataset, deduplicated"
+}
